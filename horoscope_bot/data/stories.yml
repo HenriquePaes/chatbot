@@ -1,30 +1,67 @@
 version: "3.1"
 
 stories:
-
-- story: happy path
+- story: story_001
   steps:
-  - intent: greet
+  - intent: greeting
   - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - intent: get_horoscope
+  - action: utter_ask_horoscope_sign
+  - slot_was_set:
+    - horoscope_sign: aries
+  - action: get_todays_horoscope
+  - action: utter_subscribe
 
-- story: sad path 1
+- story: story_002
   steps:
-  - intent: greet
+  - intent: greeting
   - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - intent: get_horoscope
+  - slot_was_set:
+      - horoscope_sign: cancer
+  - action: get_todays_horoscope
+  - action: utter_subscribe
+  - intent: subscription
+  - slot_was_set:
+    - subscribe: True
+  - action: subscribe_user
 
-- story: sad path 2
+- story: Consulta ao horóscopo com horoscope_sign
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+    - intent: greeting
+    - action: utter_greet
+    - intent: get_horoscope
+    - action: utter_ask_horoscope_sign
+    - slot_was_set:
+      - horoscope_sign: capricorn
+    - action: get_todays_horoscope
+    - intent: subscription
+    - action: utter_subscribe
+    - slot_was_set:
+        - subscribe: True
+    - action: subscribe_user
+
+- story: Horóscopo com fornecimento do signo
+  steps:
+    - intent: greeting
+    - action: utter_greet
+    - intent: get_horoscope
+    - action: utter_ask_horoscope_sign
+    - slot_was_set:
+        - horoscope_sign: leo
+    - action: get_todays_horoscope
+    - intent: subscription
+    - action: utter_subscribe
+    - slot_was_set:
+        - subscribe: True
+    - action: subscribe_user
+
+- story: Quando o usuário solicitar diretamente a assinatura
+  steps:
+    - intent: greeting
+    - action: utter_greet
+    - intent: subscription
+    - action: utter_subscribe
+    - slot_was_set:
+        - subscribe: True
+    - action: subscribe_user

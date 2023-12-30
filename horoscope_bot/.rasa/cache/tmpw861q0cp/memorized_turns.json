@@ -1,0 +1,21 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1tSQzL722NhYAPq0cww==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1tSQzL72WgDGlJSWpRfFg1fgMiQUAjXY3Ew==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1tSQzL72WgDGlJSWpRfFg1eQbQsAtxaVJxclFmQUgRbW1sQDk31P1": "utter_subscribe",
+    "eJydjlEKgCAQRK+yB+gEXiVCTBZZqE3WtR/x7ln5b/Q3A28eM5c6QYmCp3Ve6WAD5Q2W3Y4GetkoKXJjc0JpDHGraiAIohKHOtBkVRT70P8lgy8pr8kLxRv69qcvVhzJlgucenHA": "subscribe_user",
+    "eJyljlEKgCAQRK/iATqBV4kQjSUWapN17Ue8e1rSr1F/M/DmMWPKg0qe4TB2FtxJq3QHQ3YDrVpZMQhQYWMALgxSqaLVwgCCtOSOJooAm4v+Lul8CdGFmdFX6N2ftnDwT/ZoTJX0XNMJt7WPFg==": "action_listen",
+    "eJydjlEKgCAQBa/iATqBV4kQkYcJtSvr2o9496T6F/p7A8Pw1tYX07Lgcj5oYrKmvcORP2HNB0cqChpuLZDhJBqo1kQBNFHsk0xVhbjH/h+ZfYG6nYVL4Izetxs3rFRB": "utter_ask_horoscope_sign",
+    "eJydjkEKwkAMRa+SA4jodq5SShhKGIM1KUnqZujdHasgrkbc5ZOXlz/U7QB1MbpjnoJVEtTXgJJvlOAdZvYgaezqZI1haTESFCMKlrJ1NGsEGe70/5JeFwq8qKlPutBvhbJfPyfoXJ5anzW88d+LBMP5eBq7b8cH/eeBbA==": "get_todays_horoscope",
+    "eJy1j9EKwjAMRX+lHyCir/2VMUpXQw3OZiSpIGX/vs4J6tPE4VsuOffepCnjzpSB4eZ8UKRkTVkGl/wVrHmKHkUhVTYLcGUwVanWRAZQTHFcicmqwO5B/x6ydguoOxOTBBrgu4O8XF4WJxjnWOlJpfKfC2ua4/7QbqydYaWTv8ub57+Vy6eSOwmM3fa2dgJFCdZV": "action_listen",
+    "eJy1kF0KAjEMhK/SA4joa6+yLKXWUItrU5JUkNK726rgz8v6g28Z8s1MyFDqQpVEcDTWScCoVbkOJtoDaHUTU2CB2NjMQI0JsUnRyhOAhOjrTEwWATIX+vuQuVtAzA4J2WGC9w6yvL9bDAffY3lC4cY/L7Qa1svV+GNthwW39sQPnv9Wvn7twy7OG3YUUg+pdTwDt57VIA==": "utter_subscribe",
+    "eJy1kNEKwjAMRX+lHyCir/2VMUpXQw3OtjSpIGX/vlYHOl82J74l5Nx7kzR52IkcItyUNozeSZGfhXL6ClJMTY/E4AqbCGJh0JWWpbARgNHZYcEmMUNUD3q7ydIuwOrsoyfjA6xbSNPlJVGEttpS75kKPx9I0Rz3h/bH2AqzP+k7vWn+G/n5tS+zKHVkIoZqsu6pk6LbcNg8rB0BSwD+QQ==": "subscribe_user",
+    "eJy1kN0KwjAMhV+lDyCit32VMUpXwyzOtiSpIGXvvlaHfzf7w7uEnHO+JFXqdyIFhJvShq13UqRnoZy+ghRj01licFkbCTBrrMstS9EiAFvX9hMxkRlQPdTrQ6Z2AVZnj56MDzBvIU2Xt0WRbUssdZ4p678HUlTH/aHeiC1i9id9pw/Pf5G/X1vIotiQQRtKyLynjo5mxWFLYC+MKiFbWfUANFcm/A==": "action_listen",
+    "eJydzkEKg0AMBdCrzAFKabdzFZEgEqYBTSSJboa5u6GVLkpBcJcPLz/paruluihuMIxOwjnVzwA8zJjTESYyRw67GmoY4oieU1FEJy7tpGZ1R4W3vl7y+4tN4hboJSo2yoJgVGKre94f/Z8z6PClrfU7YqVflw==": "get_todays_horoscope",
+    "eJyljlsKwkAMRbcyCxDR39lKKWGoYQzUpCSpIEP3bnwgIkJB/3Lh3HvStWWT2qR4hjI4CefUHgdwOWFOzzCSOXKws6EGQxzRc6qK6MR1WZmZ3VHhTv8+8vmLjeIW0FFUbJAJwahGq9tvd/0XDTq80DXXDXY5lIu9df5V9lcuy4sT": "utter_subscribe",
+    "eJy1kNEKwjAMRX+lHyCir/2VMUpXQw3MZiSpIGX/bnQiIsJA8S0XTu4J6dq8cW1iOIeYFKl415YhlHgC7x5hRFEoxlYBNgaLRfUuM4BiyfNKTVUFDnf6+5L3W2QkFYOOxCSJJgiC2ba6/XbXf9CAhie65rrBSod4kZed/yqXH0kdJDEOv9v6K+vBtIA=": "action_listen",
+    "eJy1kN0KwjAMhV+lDyCit32VMUpXQxeYbUlSQUrf3c4NEREGyu5y4Ds/pCv1oEoiuBnrBGPQqiyHCfYKWq1iQhYIjc0M1BgMTYpWngAEg68bMVkEyDzp30M+t/AUhRs0RorsYgLD6JurOx9P/ZcaEPNCt7pmWOLF3vnNs2/l8iPOAzvCYe+2P5+5zkxzSK39A9J33Lg=": "subscribe_user",
+    "eJy1kFEKwyAMhq/iAcbYXr1KKWJdsIFOxcTBkN59upYyxkBY6VsCX/4vSZfnk8ghwkNpw+idFHkplNN3kGJtJiQGV9hEEAuDrrQshY0AjM7OjZjEDFG96f9DvnehyTMVaPTRk/EBFKEtU931fOl/aIDVhrZcFWZ/00/6mDlWufyI0kAm4nC0becz1zVDDWmptpNUDdnr6l+VMAVz": "action_listen"
+  }
+}

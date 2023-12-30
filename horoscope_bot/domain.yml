@@ -1,33 +1,60 @@
 version: "3.1"
 
+slots:
+  horoscope_sign:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: get_horoscope
+  DD:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: get_horoscope
+  MM:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: get_horoscope
+  subscribe:
+    type: bool
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: subscription
+
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - greeting
+  - get_horoscope
+  - subscription
+  - dob_intent
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hello! How are you doing today?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_ask_horoscope_sign:
+  - text: "What is your horoscope sign?"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_ask_dob:
+  - text: "What is your DOB in DD-MM format?"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_subscribe:
+  - text: "Do you want to subscribe for daily updates?"
 
   utter_goodbye:
-  - text: "Bye"
+    - text: Bye! See you later.
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+actions:
+  - utter_greet
+  - utter_ask_horoscope_sign
+  - utter_ask_dob
+  - utter_subscribe
+  - get_todays_horoscope
+  - subscribe_user
 
 session_config:
   session_expiration_time: 60
